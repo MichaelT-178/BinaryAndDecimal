@@ -1,0 +1,104 @@
+html {background-color: grey; display: inline;}
+
+#myHeader {
+    background-color: #00008B;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-family: var(--bs-body-font-family);
+    text-align: 850px;
+}
+
+#paragraph {
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    left: 18px;
+}
+
+#options {
+    outline:none;
+    position: absolute;
+    left: 612px;
+    top: 392px;
+}
+
+#valToConvert {
+    position: absolute;
+    left: 489px;
+    top: 436px;
+    white-space:pre;
+}
+
+#convertedVal {
+    position: absolute;
+    left: 483px;
+    top: 464px;
+}
+
+#theInput {
+    position: absolute;
+    left: 605px;
+    top: 434px;
+    white-space:pre;
+}
+
+#theOutput {
+    position: absolute;
+    left: 605px;
+    top: 464px;
+    outline:none;
+
+}
+
+#theOutput:focus {
+    outline-style: none;
+    box-shadow: none;
+    border-color: none;
+}
+
+.noselect {
+    -webkit-user-select: none; 
+    user-select: none;
+}
+
+#message {
+    position: absolute;
+    color: #00F3E3;
+    left: 500px;
+    top: 536px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#convert {
+    position: absolute;
+    left: 643px;
+    top: 508px;
+}
+
+#binary {
+    position: absolute;
+    width: 225px;
+    height: 200px;
+    left: 330px;
+    top:174px;
+    border: 1.5px solid #555;
+}
+
+#arrow {
+    position: absolute;
+    width: 200px;
+    height: 210px;
+    left: 579px;
+    top: 178px;
+}
+
+#decimal {
+    position: absolute;
+    width: 225px;
+    height: 200px;
+    left: 815px;
+    top:174px;
+    border: 1.5px solid #555;
+}

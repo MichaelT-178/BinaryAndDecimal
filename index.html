@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Binary and Decimal</title>
+</head>
+<body>
+
+    <h1 id="myHeader">
+        <span id="Title">Binary and Decimal Converter</span>
+   </h1>
+
+   <p id="paragraph">A simple website to convert binary and decimal values.</p>
+
+   <img src="./pics/binary.jpeg" id="binary">
+   <img src="./pics/arrow.webp" id="arrow">
+   <img src="./pics/decimal.jpg" id="decimal">
+
+   <select id="options">
+        <option value="BinToDec" id="option1">Binary To Decimal</option>
+        <option value="DecToBin" id="option2">Decimal To Binary</option> 
+   </select>
+
+   <span id="valToConvert"> Binary Number:</span><input id="theInput"></input>
+   <span id="convertedVal">Decimal Number:</span><input id="theOutput" class="noselect" readonly></input>
+
+   <button id="convert">Convert</button>  
+   <span id="message"></span>
+   
+   <script src="main.js"></script>
+</body>
+</html>
+
