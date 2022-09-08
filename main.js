@@ -101,12 +101,7 @@ document.getElementById('options').addEventListener('change', function() {
 document.getElementById('convert').addEventListener('click', function() {
 
     const theChoice = document.getElementById('options').value;
-
-    //valToConvert
-    //convertedVal
-    //
-
-
+    
     if (theChoice === "BinToDec") {
         const binInput = document.getElementById('theInput').value;
 
